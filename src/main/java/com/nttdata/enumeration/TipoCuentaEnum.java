@@ -1,26 +1,23 @@
 /**
  * 
  */
-package com.nttdata.Enumeration;
+package com.nttdata.enumeration;
 
-import lombok.Data;
+import lombok.Getter;
 
 /**
  * @author gustavoefrainparcosanchez
  *
  */
-@Data
 public enum TipoCuentaEnum {
 
 	A("AHORRO"), C("CORRIENTE");
-	
-	TipoCuentaEnum(String string) {
-		// TODO Auto-generated constructor stub
+
+	@Getter
+	private String descripcion;
+
+	TipoCuentaEnum(String descripcion) {
+		this.descripcion = descripcion;
 	}
 
-	private String descripcion;
-	
-	
-
-	
 }
