@@ -13,8 +13,9 @@ import lombok.Data;
 public class Cliente extends Persona {
 
 	@Id
+	@Column(name = "cliente_id", nullable = false)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int clienteId;
+	private Integer clienteId;
 
 	@Column(name = "contraseña", nullable = false)
 	private String contraseña;
