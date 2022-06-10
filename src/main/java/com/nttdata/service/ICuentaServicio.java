@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nttdata.servicio;
+package com.nttdata.service;
 
 import com.nttdata.model.Cuenta;
 

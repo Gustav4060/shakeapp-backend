@@ -2,7 +2,7 @@
  * 
  */
 
-package com.nttdata.servicio;
+package com.nttdata.service;
 
 import java.util.List;
 

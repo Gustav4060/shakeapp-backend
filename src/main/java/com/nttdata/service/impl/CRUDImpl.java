@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.nttdata.servicio.impl;
+package com.nttdata.service.impl;
 
 import java.util.List;
 
 import com.nttdata.repository.IGenericRepo;
-import com.nttdata.servicio.ICRUD;
+import com.nttdata.service.ICRUD;
 
 
 
